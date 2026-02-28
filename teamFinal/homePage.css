@@ -1,6 +1,13 @@
 * {
     margin: 0;
 }
-header{
+.header-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #888;
+}
+
+.drop-down{
+    display: none;
 }
