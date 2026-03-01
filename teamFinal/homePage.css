@@ -1,13 +1,114 @@
 * {
-    margin: 0;
+    margin: 0 auto;
 }
-.header-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #888;
+/* Style the navigation menu */
+.topLinks {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  display: flex;
+  flex-direction: row;
 }
 
-.drop-down{
-    display: none;
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  background-color: #333;
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+
+/* Style navigation menu links */
+.topLinks > a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #333;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: xx-large;
+  color: white;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+/* Add a grey background color on mouse-over */
+.topLinks a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+#myLinks a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #0417aa;
+  color: white;
+}
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 50px;
+    background-color: #d5d4d4;
+}
+
+main img{
+    border-radius: 5px;
+}
+
+.playButtons button{
+    border: none;
+    font-size: x-large;
+    background-color: #9c989b;
+    color:#292628;
+    height: 80px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 0 4px #767676;
+    margin-bottom: 5px;
+
+}
+
+.playButtons button:hover {
+    background-color: #292628;
+    color:#dcd6da;
+}
+
+.playButtons button:active {
+  background-color: #292628;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+
+
+footer{
+    background-color: #333;
+    display: flex;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: white
 }

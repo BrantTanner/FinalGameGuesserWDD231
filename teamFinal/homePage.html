@@ -3,57 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="homePage.css">
+    <script src="homePage.js" defer></script>
+
     <title>Home Page</title>
 </head>
 <body>
     <header>
-        <div class="header-links">
-            <a href="#homepage">Home Page</a>
-            <a href="#gamepage">Play Game</a>
-            <a href="#Credits">Credits</a>
-        </div>
-
-        
- 
-        <div class="drop-down">
-            <button> Insert drop down lines</button>
-            <div class="drop-down-content">
-                <a href="#homepage">Home Page</a>
-                <a href="#gamepage">Play Game</a>
-                <a href="#Credits">Credits</a>
+        <div class="topnav">
+            <div class="topLinks">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">Play</a>
+                <a href="#contact">Rules</a>
+                <a href="#about">Credits</a>
             </div>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="#news">Play</a>
+                <a href="#contact">Rules</a>
+                <a href="#about">Credits</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
 
     </header>
     
-    <section class="content">
+    <main class="content">
 
-        <img src="#" alt="image of logo">
+        <img src="assets/images/logo.png" alt="image of logo" width="400px">
 
-        <img src="#" alt="pic of character">
-        <img src="#" alt="picture">
+        <h1>Test your videogame knowledge!</h1>
+        <div class="playButtons">
+            <button onclick="location.href='#'">Play</button>
+            <button onclick="location.href='#'">Rules</button>
+        </div>
 
         <a href="#credits">Credits</a>
 
-    </section>
+    </main>
     
     <footer>
         <a href="#contactUsPage">Contact Us</a>
 
-        <section class="socialMedia">
             <p>Follow Us</p>
 
-            <a href="#instagram">
-                <img src="#IGLogo" alt="instagram logo">
+            <a href="#">
+                <img src="assets/images/instagram.png" alt="instagram logo">
             </a>
-            <a href="#X">
-                <img src="#XLogo" alt="X logo">
+            <a href="#">
+                <img src="assets/images/x.png" alt="X logo">
             </a>
             <a href="#Youtube">
-                <img src="#YoutubeLogo" alt="Youtube Logo">
+                <img src="assets/images/youtube.png" alt="Youtube Logo">
             </a>
-        </section>
+            <span>Icons8</span>
     </footer> 
 </body>
 
