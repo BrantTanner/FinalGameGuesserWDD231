@@ -1,0 +1,492 @@
+{
+    "characterGuesser": [
+        {
+            "id": 1,
+            "name": "Mario",
+            "game": "Super Mario",
+            "characterImage": "https://mario.wiki.gallery/images/3/3e/MPSS_Mario.png",
+            "characterHint": "Has a brother who is also a plumber.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 2,
+            "name": "Steve",
+            "game": "Minecraft",
+            "characterImage": "https://static.beebom.com/wp-content/uploads/2022/10/Steve.jpg?w=640",
+            "characterHint": "From a game about breaking blocks and surviving. Very generic name.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 3,
+            "name": "Trevor",
+            "game": "Grand Theft Auto 5",
+            "characterImage": "https://i.pinimg.com/736x/2a/55/fb/2a55fb4b3739f3d57f1772ff5b5a5e15.jpg",
+            "characterHint": "He is completely insane. From a game about doing crimes.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 4,
+            "name": "Master Chief",
+            "game": "Halo",
+            "characterImage": "https://wallpapercave.com/wp/UrwGKCm.jpg",
+            "characterHint": "Super Soldier, has companion named Cortana.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 5,
+            "name": "Donkey Kong",
+            "game": "Donkey Kong",
+            "characterImage": "https://th.bing.com/th/id/R.993e9c70a3d19bc40787acbdcc662796?rik=5Cq6fqqUWzvsog&riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20131129221253%2ffantendo%2fimages%2f7%2f74%2fDonkey_Kong_Profile_Artwork.jpg&ehk=DcQsoCV079EpdRfsH7oeICI1p4sXxGVeMqOmzR%2bCKsI%3d&risl=&pid=ImgRaw&r=0",
+            "characterHint": "First appeared in a game about throwing barrels at Mario.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 6,
+            "name": "Sonic",
+            "game": "Sonic the Hedgehog",
+            "characterImage": "https://characterImgLinkHere(:",
+            "characterHint": "Runs very fast, has a partner names Tails.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 7,
+            "name": "Pac-Man",
+            "game": "Pac-Man",
+            "characterImage": "https://pngimg.com/uploads/pacman/pacman_PNG79.png",
+            "characterHint": "Chases and eats little ghosts.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 8,
+            "name": "Kratos",
+            "game": "God of War",
+            "characterImage": "https://th.bing.com/th/id/R.6b5f617abdfeaafd2589001e9bcc6d56?rik=qATn39FvdghyTQ&pid=ImgRaw&r=0",
+            "characterHint": "Known as the God of War",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 9,
+            "name": "Arthur Morgan",
+            "game": "Red Dead Redemption 2",
+            "characterImage": "https://tse1.mm.bing.net/th/id/OIP.VIw7s3zz18VKrO9AjAlYZQHaG3?rs=1&pid=ImgDetMain&o=7&rm=3",
+            "characterHint": "An Outlaw that tries to turn his life around after getting a disease",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 10,
+            "name": "Crash",
+            "game": "Crash Bandicoot",
+            "characterImage": "https://images5.alphacoders.com/645/thumb-1920-645941.png",
+            "characterHint": "An off the walls bandicoot",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 11,
+            "name": "Joel",
+            "game": "The Last of Us",
+            "characterImage": "https://i.pinimg.com/originals/f1/90/5b/f1905b9de3ba7f80daae220dcb7496de.jpg",
+            "characterHint": "Caring father who lost his daughter early",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 12,
+            "name": "Doom Guy",
+            "game": "Doom",
+            "characterImage": "https://wallpaperaccess.com/full/202959.jpg",
+            "characterHint": "Even demons fear him",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 13,
+            "name": "Laura Croft",
+            "game": "Tomb Raider",
+            "characterImage": "",
+            "characterHint": "One of the greatest adventures ever",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 14,
+            "name": "Astro Bot",
+            "game": "Astro Bot",
+            "characterImage": "https://wallpapers.com/images/hd/cute-cool-ps4-astro-bot-waving-with-right-hand-j0e8t9094f20sba4.jpg",
+            "characterHint": "Robot sent out to save other lost robots around the universe",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 15,
+            "name": "Verso",
+            "game": "Expidition 33",
+            "characterImage": "https://tse2.mm.bing.net/th/id/OIP.Q8-8lTefriD7llswHh-R_gHaD4?rs=1&pid=ImgDetMain&o=7&rm=3",
+            "characterHint": "Over 100 years old, Father is the villian for the game.",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 16,
+            "name": "Robert Robertson",
+            "game": "Dispatch",
+            "characterImage": "https://tse1.mm.bing.net/th/id/OIP.YHAy9ocQpLdEXuZ31TUdewHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+            "characterHint": "Ex-Hero turned to a dispatcher.",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 17,
+            "name": "Hollow Knight",
+            "game": "Hollow Knight",
+            "characterImage": "https://tse1.mm.bing.net/th/id/OIP.mEep3mLvlUjz0YGoCKybFAHaEK?w=1000&h=563&rs=1&pid=ImgDetMain&o=7&rm=3",
+            "characterHint": "Commonly confused with main character. Also same name as the game",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 18,
+            "name": "Leon Kennedy",
+            "game": "Resident Evil",
+            "characterImage": "https://tse2.mm.bing.net/th/id/OIP.Wfmt6jECv1JapIHSqAIFlAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+            "characterHint": "Round-house kicking monsters.",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 19,
+            "name": "B-12",
+            "game": "Stray",
+            "characterImage": "https://www.moyens.net/wp-content/uploads/2022/07/Ou-trouver-tous-les-Stray-Memories-pour-B-12.jpg",
+            "characterHint": "Companion and translator for a cat",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 20,
+            "name": "BT-7274",
+            "game": "Titanfall 2",
+            "characterImage": "https://th.bing.com/th/id/R.b9e3f2d7892c619fa76fee345c94f109?rik=sA6VRqGRzrS37w&riu=http%3a%2f%2foyster.ignimgs.com%2fmediawiki%2fapis.ign.com%2ftitanfall-2%2fthumb%2fb%2fbf%2fM2W2.jpg%2f468px-M2W2.jpg&ehk=jLatS9JYd4npveFlVNbgmRhTmugycLn9NWJADWTp4kE%3d&risl=&pid=ImgRaw&r=0",
+            "characterHint": "Titan protector of Pilot Cooper",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 21,
+            "name": "Adam Smasher",
+            "game": "Cyberpunk 2077",
+            "characterImage": "https://tse3.mm.bing.net/th/id/OIP.yRgKTiVHhXWb5qLdxiv5kQHaEw?w=1397&h=896&rs=1&pid=ImgDetMain&o=7&rm=3",
+            "characterHint": "Lost himself in cybernetic enhancements, one of the legends in night city.",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 22,
+            "name": "Clementine",
+            "game": "Telltale's The Walking Dead",
+            "characterImage": "https://tse1.mm.bing.net/th/id/OIP.NS2ttROUq7EXBTEmKufuEwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+            "characterHint": "Lost her parents, taken in by a man named Lee.",
+            "difficulty": "Extreme"
+        }
+    ],
+    "GameGuesserEnv": [
+        {
+            "id": 1,
+            "game": "Super Mario Bros",
+            "environmentImage": "https://tcrf.net/images/b/bc/SMBDX-0x20_%28Test_Level%29.png",
+            "gameHint": "This game is about a plumber who crushes turtles and saves a princess.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 2,
+            "game": "Minecraft",
+            "environmentImage": "https://www.pcgamesn.com/wp-content/sites/pcgamesn/2025/09/minecraft-houses.jpg",
+            "gameHint": "Build with blocks, mine and survive. Also a top selling game.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 3,
+            "game": "Grand Theft Auto 5",
+            "environmentImage": "https://images.ctfassets.net/wn7ipiv9ue5v/NwgElAZU8ZdLmW6v7812Y/3d8a8eb721c109b12bbc2422ba8b4f68/3-4_GTA--Gen_9_Vista_Reshoot_CF__3___1_.jpg",
+            "gameHint": "A game about doing crimes in a crazy city, also relates to stealing cars.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 4,
+            "game": "Halo",
+            "environmentImage": "https://wpassets.halowaypoint.com/wp-content/2023/08/FF017Header.jpg",
+            "gameHint": "Game about taking down an alien race called the Covenant",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 5,
+            "game": "Donkey Kong",
+            "environmentImage": "https://i.ytimg.com/vi/Pp2aMs38ERY/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-BIAC4AOKAgwIABABGBMgIyh_MA8=&rs=AOn4CLClpvaRExt1SWVMlqRX1tJ92i6VIw",
+            "gameHint": "Game about a big gorilla that throws barrels at a small plumber.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 6,
+            "game": "Sonic the Hedgehog",
+            "environmentImage": "https://e1.pxfuel.com/desktop-wallpaper/777/827/desktop-wallpaper-sonic-level-backgrounds-posted-by-sarah-walker.jpg",
+            "gameHint": "A game about a talking hedghog that can run really fast.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 7,
+            "game": "Pac-Man",
+            "environmentImage": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Pac-Man_gameplay_%281x_pixel-perfect_recreation%29.png",
+            "gameHint": "An old arcade game about chasing and eating ghosts while collecting dots.",
+            "difficulty": "Easy"
+        },
+        {
+            "id": 8,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 9,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 10,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 11,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 12,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 13,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 14,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Medium"
+        },
+        {
+            "id": 15,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 16,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 17,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 18,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 19,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 20,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 21,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Hard"
+        },
+        {
+            "id": 22,
+            "game": "game name here (:",
+            "environmentImage": "https://environmentImgLinkHere(:",
+            "gameHint": "hint for game here",
+            "difficulty": "Extreme"
+        }
+    ],
+    "GameGuesserMusic": [
+        {
+            "id": 1,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Easy"
+        },
+        {
+            "id": 2,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Easy"
+        },
+        {
+            "id": 3,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Easy"
+        },
+        {
+            "id": 4,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Easy"
+        },
+        {
+            "id": 5,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Easy"
+        },
+        {
+            "id": 6,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Easy"
+        },
+        {
+            "id": 7,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Easy"
+        },
+        {
+            "id": 8,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Medium"
+        },
+        {
+            "id": 9,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Medium"
+        },
+        {
+            "id": 10,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Medium"
+        },
+        {
+            "id": 11,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Medium"
+        },
+        {
+            "id": 12,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Medium"
+        },
+        {
+            "id": 13,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Medium"
+        },
+        {
+            "id": 14,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Medium"
+        },
+        {
+            "id": 15,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Hard"
+        },
+        {
+            "id": 16,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Hard"
+        },
+        {
+            "id": 17,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Hard"
+        },
+        {
+            "id": 18,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Hard"
+        },
+        {
+            "id": 19,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Hard"
+        },
+        {
+            "id": 20,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Hard"
+        },
+        {
+            "id": 21,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Hard"
+        },
+        {
+            "id": 22,
+            "game": "game name here (:",
+            "musicSnippet": "https://audioFileLinkHere.mp3 (:",
+            "hint": "hint for game here (:",
+            "difficulty":"Extreme"
+        }
+    ]
+}
