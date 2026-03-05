@@ -1,0 +1,8 @@
+1. Fix footer positioning (Finding #2) - Critical layout bug affecting usability
+2. Add focus styles (Finding #1) - Quick win for accessibility compliance
+3. Link CSS to characterGuesser.html (Finding #3) - Blocks further development
+4. Add responsive media queries (Finding #6) - Core requirement for "mobile-first" milestone
+5. Fix semantic HTML (Finding #5) - Use <nav>, proper headings, meaningful hrefs
+6. Remove inline onclick handlers (Finding #4) - Prevents CSP issues later
+7. Add ARIA labels (Finding #7) - Improves screen reader experience
+8. Refactor CSS variables (Finding #8) - Sets up maintainable foundation
