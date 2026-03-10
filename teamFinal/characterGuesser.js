@@ -1,3 +1,4 @@
+
 let characters = [];
 
 async function fetchJSONData() {
