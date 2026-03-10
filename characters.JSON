@@ -435,7 +435,7 @@
         {
             "id": 15,
             "game": "Expidition 33",
-            "musicSnippet": "./music/Expedition33.mp3",
+            "musicSnippet": "./music/Expedition33",
             "hint": "Won an award for the soundrack and also won game of the year.",
             "difficulty":"Hard"
         },
@@ -470,7 +470,7 @@
         {
             "id": 20,
             "game": "Titanfall 2",
-            "musicSnippet": "./music/Titanfall2.mp3",
+            "musicSnippet": "./music/Titanfall2",
             "hint": "Protocol 3, protect the pilot.",
             "difficulty":"Hard"
         },
