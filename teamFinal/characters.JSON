@@ -44,7 +44,7 @@
             "id": 6,
             "name": "Sonic",
             "game": "Sonic the Hedgehog",
-            "characterImage": "https://characterImgLinkHere(:",
+            "characterImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/10/Sonic-The-Hedgehog-Sega-Super-Game.jpg",
             "characterHint": "Runs very fast, has a partner names Tails.",
             "difficulty": "Easy"
         },
@@ -85,7 +85,7 @@
             "name": "Joel",
             "game": "The Last of Us",
             "characterImage": "https://i.pinimg.com/originals/f1/90/5b/f1905b9de3ba7f80daae220dcb7496de.jpg",
-            "characterHint": "Caring father who lost his daughter early",
+            "characterHint": "Caring father who lost his daughter at the beggining of the apocalypse.",
             "difficulty": "Medium"
         },
         {
@@ -114,10 +114,10 @@
         },
         {
             "id": 15,
-            "name": "Verso",
+            "name": "Gustave",
             "game": "Expidition 33",
-            "characterImage": "https://tse2.mm.bing.net/th/id/OIP.Q8-8lTefriD7llswHh-R_gHaD4?rs=1&pid=ImgDetMain&o=7&rm=3",
-            "characterHint": "Over 100 years old, Father is the villian for the game.",
+            "characterImage": "https://imgix.bustle.com/uploads/image/2025/5/15/6a1e5659/gustave1.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg",
+            "characterHint": "Caring mentor to Mallele. Very emotional death.",
             "difficulty": "Hard"
         },
         {
