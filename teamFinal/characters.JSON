@@ -4,6 +4,7 @@
             "id": 1,
             "name": "Mario",
             "game": "Super Mario",
+            "acceptableAnswers": ["Mario"],
             "characterImage": "https://mario.wiki.gallery/images/3/3e/MPSS_Mario.png",
             "characterHint": "Has a brother who is also a plumber.",
             "difficulty": "Easy"
@@ -12,6 +13,7 @@
             "id": 2,
             "name": "Steve",
             "game": "Minecraft",
+            "acceptableAnswers": ["Steve", "Minecraft Steve"],
             "characterImage": "https://static.beebom.com/wp-content/uploads/2022/10/Steve.jpg?w=640",
             "characterHint": "From a game about breaking blocks and surviving. Very generic name.",
             "difficulty": "Easy"
@@ -300,6 +302,7 @@
         {
             "id": 18,
             "game": "Resident Evil Village",
+            "acceptableAnswers": ["Resident Evil Village", "Resident Evil"],
             "environmentImage": "https://www.outerspace.com.br/wp-content/uploads/2021/03/revillage.jpg",
             "gameHint": "A dark and gritty game released in 2021, try to stay calm as you navigate a crazy mansion with monsters.",
             "difficulty": "Hard"
@@ -307,6 +310,7 @@
         {
             "id": 19,
             "game": "Stray",
+            "acceptableAnswers": ["Stray"],
             "environmentImage": "https://wallpaperaccess.com/full/8322561.jpg",
             "gameHint": "An indie game where Humans have gone extinct, explore a world of robots as a small cat.",
             "difficulty": "Hard"
@@ -314,6 +318,7 @@
         {
             "id": 20,
             "game": "Titanfall 2",
+            "acceptableAnswers": ["Titanfall", "Titanfall 2"],
             "environmentImage": "https://cdn.80.lv/api/upload/post/2695/images/5d2c5ab682a30/widen_2440x0.jpg",
             "gameHint": "A very fast paced first person shooter with some of the best movement in gaming.",
             "difficulty": "Hard"
@@ -321,6 +326,7 @@
         {
             "id": 21,
             "game": "Cyberpunk 2077",
+            "acceptableAnswers": ["Cyberpunk", "Cyberpunk 2077"],
             "environmentImage": "https://wallpaperaccess.com/full/5248762.jpg",
             "gameHint": "In a future where everything is ran by big companies, navigate through Night City and uncover it's secrets.",
             "difficulty": "Hard"
@@ -328,6 +334,7 @@
         {
             "id": 22,
             "game": "Telltale's The Walking Dead",
+            "acceptableAnswers": ["Telltale Walking Dead", "The Walking Dead", "Telltale's The Walking Dead", "Walking Dead"],
             "environmentImage": "https://tse2.mm.bing.net/th/id/OIP.1RJyB44-pGEsEaDh6vOavAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
             "gameHint": "A choice based game set in a zombie outbreak following a little girl growing up in this environment.",
             "difficulty": "Extreme"
@@ -337,6 +344,7 @@
         {
             "id": 1,
             "game": "Super Mario Bros",
+            "acceptableAnswers": ["Mario", "Super Mario", "Super Mario Bros", "Mario Bros"],
             "musicSnippet": "./music/SuperMario.mp3",
             "hint": "One of the most famous games of all time.",
             "difficulty":"Easy"
@@ -344,6 +352,7 @@
         {
             "id": 2,
             "game": "Minecraft",
+            "acceptableAnswers": ["Minecraft"],
             "musicSnippet": "./music/Minecraft.mp3",
             "hint": "Listen to a soothing soundrack while buiding whatever you can think of.",
             "difficulty":"Easy"
@@ -351,6 +360,7 @@
         {
             "id": 3,
             "game": "Grand Theft Auto 5",
+            "acceptableAnswers": ["Grand Theft Auto 5", "Grand Theft Auto"],
             "musicSnippet": "./music/GTAV.mp3",
             "hint": "hint for game here (:",
             "difficulty":"Easy"
@@ -358,6 +368,7 @@
         {
             "id": 4,
             "game": "Halo",
+            "acceptableAnswers": ["Halo"],
             "musicSnippet": "./music/halo.mp3",
             "hint": "A game taking place in space witha soundrack to match it.",
             "difficulty":"Easy"
@@ -365,6 +376,7 @@
         {
             "id": 5,
             "game": "Donkey Kong",
+            "acceptableAnswers": ["Donkey Kong"],
             "musicSnippet": "./music/DonkeyKong.mp3",
             "hint": "A very simple game with a simple soundrack. An early arcade game.",
             "difficulty":"Easy"
@@ -372,6 +384,7 @@
         {
             "id": 6,
             "game": "Sonic the Hedgehog",
+            "acceptableAnswers": ["Sonic", "Sonic the Hedgehog, Sonic Hedgehog"],
             "musicSnippet": "./music/Sonic.mp3",
             "hint": "Fast paced music for a fast paced character",
             "difficulty":"Easy"
@@ -379,6 +392,7 @@
         {
             "id": 7,
             "game": "Pac-Man",
+            "acceptableAnswers": ["Pac-Man", "Pac Man", "PacMan"],
             "musicSnippet": "./music/PacMan.mp3",
             "hint": "Yellow dude that eats dots",
             "difficulty":"Easy"
