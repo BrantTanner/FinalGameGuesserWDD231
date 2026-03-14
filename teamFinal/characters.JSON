@@ -22,7 +22,7 @@
             "id": 3,
             "name": "Trevor",
             "game": "Grand Theft Auto 5",
-            "acceptableAnswers": ["Grand Theft Auto", "Grand Theft Auto 5", "GTA 5", "GTA"],
+            "acceptableAnswers": ["Trevor"],
             "characterImage": "https://i.pinimg.com/736x/2a/55/fb/2a55fb4b3739f3d57f1772ff5b5a5e15.jpg",
             "characterHint": "He is completely insane. From a game about doing crimes.",
             "difficulty": "Easy"
@@ -203,6 +203,7 @@
         {
             "id": 1,
             "game": "Super Mario Bros",
+            "acceptableAnswers": ["Super Mario Bros", "Mario", "Super Mario", "Mario Bros"],
             "environmentImage": "https://tcrf.net/images/b/bc/SMBDX-0x20_%28Test_Level%29.png",
             "gameHint": "This game is about a plumber who crushes turtles and saves a princess.",
             "difficulty": "Easy"
@@ -210,6 +211,7 @@
         {
             "id": 2,
             "game": "Minecraft",
+            "acceptableAnswers": ["Minecraft"],
             "environmentImage": "https://www.pcgamesn.com/wp-content/sites/pcgamesn/2025/09/minecraft-houses.jpg",
             "gameHint": "Build with blocks, mine and survive. Also a top selling game.",
             "difficulty": "Easy"
@@ -217,6 +219,7 @@
         {
             "id": 3,
             "game": "Grand Theft Auto 5",
+            "acceptableAnswers": ["Grand Theft Auto 5", "Grand Theft Auto", "GTA 5", "GTA"],
             "environmentImage": "https://images.ctfassets.net/wn7ipiv9ue5v/NwgElAZU8ZdLmW6v7812Y/3d8a8eb721c109b12bbc2422ba8b4f68/3-4_GTA--Gen_9_Vista_Reshoot_CF__3___1_.jpg",
             "gameHint": "A game about doing crimes in a crazy city, also relates to stealing cars.",
             "difficulty": "Easy"
@@ -224,6 +227,7 @@
         {
             "id": 4,
             "game": "Halo",
+            "acceptableAnswers": ["Halo"],
             "environmentImage": "https://wpassets.halowaypoint.com/wp-content/2023/08/FF017Header.jpg",
             "gameHint": "Game about taking down an alien race called the Covenant",
             "difficulty": "Easy"
@@ -231,6 +235,7 @@
         {
             "id": 5,
             "game": "Donkey Kong",
+            "acceptableAnswers": ["Donkey Kong"],
             "environmentImage": "https://i.ytimg.com/vi/Pp2aMs38ERY/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-BIAC4AOKAgwIABABGBMgIyh_MA8=&rs=AOn4CLClpvaRExt1SWVMlqRX1tJ92i6VIw",
             "gameHint": "Game about a big gorilla that throws barrels at a small plumber.",
             "difficulty": "Easy"
@@ -238,6 +243,7 @@
         {
             "id": 6,
             "game": "Sonic the Hedgehog",
+            "acceptableAnswers": ["Sonic the Hedgehog", "Sonic"],
             "environmentImage": "https://e1.pxfuel.com/desktop-wallpaper/777/827/desktop-wallpaper-sonic-level-backgrounds-posted-by-sarah-walker.jpg",
             "gameHint": "A game about a talking hedghog that can run really fast.",
             "difficulty": "Easy"
@@ -245,6 +251,7 @@
         {
             "id": 7,
             "game": "Pac-Man",
+            "acceptableAnswers": ["Pac-Man", "Pac Man", "PacMan"],
             "environmentImage": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Pac-Man_gameplay_%281x_pixel-perfect_recreation%29.png",
             "gameHint": "An old arcade game about chasing and eating ghosts while collecting dots.",
             "difficulty": "Easy"
@@ -252,6 +259,7 @@
         {
             "id": 8,
             "game": "God of War",
+            "acceptableAnswers": ["God of War"],
             "environmentImage": "https://cdn.80.lv/api/upload/meta/12676/images/5e9d7347eb1f2/contain_1200x630.jpg",
             "gameHint": "A game set in mythology about a God killer turned father and his journey with his son.",
             "difficulty": "Medium"
@@ -259,6 +267,7 @@
         {
             "id": 9,
             "game": "Red Dead Redemption 2",
+            "acceptableAnswers": ["Red Dead Redemption 2", "Read Dead Redemption"],
             "environmentImage": "https://th.bing.com/th/id/R.81908e1b7d59f056387c42459b69521a?rik=rtTVIJHfsEedAw&riu=http%3a%2f%2fgrzegorzbednarz.weebly.com%2fuploads%2f2%2f7%2f6%2f9%2f27693091%2f1.jpg&ehk=SI33nAUhmb4AMZ6RlnoM3s173G11IcsvQg27SWZi1ho%3d&risl=&pid=ImgRaw&r=0",
             "gameHint": "Released in 2018, this game follows an outlaw who realises that he needs to be a better man.",
             "difficulty": "Medium"
@@ -266,6 +275,7 @@
         {
             "id": 10,
             "game": "Crash Bandicoot",
+            "acceptableAnswers": ["Crash Bandicoot"],
             "environmentImage": "https://i.sstatic.net/7wk7C.jpg",
             "gameHint": "A difficult platformer game with a very off the walls main character.",
             "difficulty": "Medium"
@@ -273,6 +283,7 @@
         {
             "id": 11,
             "game": "The Last of Us",
+            "acceptableAnswers": ["The Last of Us"],
             "environmentImage": "https://vignette2.wikia.nocookie.net/thelastofus/images/e/e0/The_Last_of_Us_Environment.png/revision/latest?cb=20130628081607",
             "gameHint": "A story driven zombie game about a man who protects a small, immune girl.",
             "difficulty": "Medium"
@@ -280,6 +291,7 @@
         {
             "id": 12,
             "game": "Doom",
+            "acceptableAnswers": ["Doom"],
             "environmentImage": "https://wallpaperaccess.com/full/1605844.jpg",
             "gameHint": "Killing Demons and listening to Heavy Metal.",
             "difficulty": "Medium"
@@ -287,6 +299,7 @@
         {
             "id": 13,
             "game": "Tomb Raider",
+            "acceptableAnswers": ["Tomb Raider"],
             "environmentImage": "https://th.bing.com/th/id/R.e054c2152a73ac89edb4128e70d423ed?rik=4uZqpvR07kViIQ&pid=ImgRaw&r=0",
             "gameHint": "Explore deep tombs and discover new secrets while fending off bad guys.",
             "difficulty": "Medium"
@@ -294,6 +307,7 @@
         {
             "id": 14,
             "game": "Astro Bot",
+            "acceptableAnswers": ["Astro Bot"],
             "environmentImage": "https://www.siliconera.com/wp-content/uploads/2024/12/astro-bot-christmas-level.png",
             "gameHint": "Very happy game about a robot that travels the universe.",
             "difficulty": "Medium"
@@ -301,6 +315,7 @@
         {
             "id": 15,
             "game": "Expidition 33",
+            "acceptableAnswers": ["Expidition 33", "Clair Obscure Expidition 33"],
             "environmentImage": "https://wallpapers.com/images/hd/clair-obscur-expedition-33-scene-ix8cpaqvrfzkakih.jpg",
             "gameHint": "Winning game of the year in 2025, this game combines a great story with stunning visuals.",
             "difficulty": "Hard"
@@ -308,6 +323,7 @@
         {
             "id": 16,
             "game": "Dispatch",
+            "acceptableAnswers": ["Dispatch"],
             "environmentImage": "https://tse4.mm.bing.net/th/id/OIP.9DtRmbA9mmpvrTKv6UWjPgHaEK?w=1200&h=675&rs=1&pid=ImgDetMain&o=7&rm=3",
             "gameHint": "With a stacked lineup of voice actors, this decision based game follows a group of reformed villians.",
             "difficulty": "Hard"
@@ -315,6 +331,7 @@
         {
             "id": 17,
             "game": "Hollow Knight",
+            "acceptableAnswers": ["Hollow Knight"],
             "environmentImage": "https://vignette.wikia.nocookie.net/hollowknight/images/9/9c/Screenshot_HK_Greenpath_01.png/revision/latest?cb=20190312030837",
             "gameHint": "One of the biggest Indie games ever, you explore deep underground while fighting bugs.",
             "difficulty": "Hard"
@@ -380,7 +397,7 @@
         {
             "id": 3,
             "game": "Grand Theft Auto 5",
-            "acceptableAnswers": ["Grand Theft Auto 5", "Grand Theft Auto"],
+            "acceptableAnswers": ["Grand Theft Auto 5", "Grand Theft Auto", "GTA 5", "GTA"],
             "musicSnippet": "./music/GTAV.mp3",
             "hint": "hint for game here (:",
             "difficulty":"Easy"
@@ -404,7 +421,7 @@
         {
             "id": 6,
             "game": "Sonic the Hedgehog",
-            "acceptableAnswers": ["Sonic", "Sonic the Hedgehog, Sonic Hedgehog"],
+            "acceptableAnswers": ["Sonic", "Sonic the Hedgehog"],
             "musicSnippet": "./music/Sonic.mp3",
             "hint": "Fast paced music for a fast paced character",
             "difficulty":"Easy"
@@ -420,6 +437,7 @@
         {
             "id": 8,
             "game": "God of War",
+            "acceptableAnswers": ["God of War"],
             "musicSnippet": "./music/GodOfWar.mp3",
             "hint": "Fitting soundtrack for a God",
             "difficulty":"Medium"
@@ -427,6 +445,7 @@
         {
             "id": 9,
             "game": "Red Dead Redemption 2",
+            "acceptableAnswers": ["Red Dead Redemption 2", "Read Dead Redemption"],
             "musicSnippet": "./music/RedDead.mp3",
             "hint": "Turberculosis ):",
             "difficulty":"Medium"
@@ -434,6 +453,7 @@
         {
             "id": 10,
             "game": "Crash Bandicoot",
+            "acceptableAnswers": ["Crash Bandicoot"],
             "musicSnippet": "./music/CrashBandicoot.mp3",
             "hint": "Unhinged music for an unhinged animal.",
             "difficulty":"Medium"
@@ -441,6 +461,7 @@
         {
             "id": 11,
             "game": "The Last of Us",
+            "acceptableAnswers": ["The Last of Us"],
             "musicSnippet": "./music/TheLastOfUs.mp3",
             "hint": "A soothing soundtrack for a not so soothing story in the apocalypse.",
             "difficulty":"Medium"
@@ -448,6 +469,7 @@
         {
             "id": 12,
             "game": "Doom",
+            "acceptableAnswers": ["Doom"],
             "musicSnippet": "./music/Doom.mp3",
             "hint": "Imagine this while ripping demons into bits.",
             "difficulty":"Medium"
@@ -455,6 +477,7 @@
         {
             "id": 13,
             "game": "Tomb Raider",
+            "acceptableAnswers": ["Tomb Raider"],
             "musicSnippet": "./music/TombRaider.mp3",
             "hint": "Epic music for an epic adventure through tombs.",
             "difficulty":"Medium"
@@ -462,6 +485,7 @@
         {
             "id": 14,
             "game": "Astro Bot",
+            "acceptableAnswers": ["Astro Bot"],
             "musicSnippet": "./music/AstroBot.mp3",
             "hint": "Very upbeat soundrack with silly robots that you adventure with.",
             "difficulty":"Medium"
@@ -469,6 +493,7 @@
         {
             "id": 15,
             "game": "Expidition 33",
+            "acceptableAnswers": ["Expidition 33", "Clair Obscure Expidition 33"],
             "musicSnippet": "./music/Expedition33.mp3",
             "hint": "Won an award for the soundrack and also won game of the year.",
             "difficulty":"Hard"
@@ -476,6 +501,7 @@
         {
             "id": 16,
             "game": "Dispatch",
+            "acceptableAnswers": ["Dispatch"],
             "musicSnippet": "./music/Dispatch.mp3",
             "hint": "A rich story about reformed villians with a rich soundrack.",
             "difficulty":"Hard"
@@ -483,6 +509,7 @@
         {
             "id": 17,
             "game": "Hollow Knight",
+            "acceptableAnswers": ["Hollow Knight"],
             "musicSnippet": "./music/HollowKnight.mp3",
             "hint": "Developed by 3 poeople this game pushed visual and musical boundries.",
             "difficulty":"Hard"
@@ -490,6 +517,7 @@
         {
             "id": 18,
             "game": "Resident Evil",
+            "acceptableAnswers": ["Resident Evil Village", "Resident Evil"],
             "musicSnippet": "./music/ResidentEvil.mp3",
             "hint": "Infected and unnecessary backflips.",
             "difficulty":"Hard"
@@ -497,6 +525,7 @@
         {
             "id": 19,
             "game": "Stray",
+            "acceptableAnswers": ["Stray"],
             "musicSnippet": "./music/Stray.mp3",
             "hint": "A small cat lost in a world of robots.",
             "difficulty":"Hard"
@@ -504,6 +533,7 @@
         {
             "id": 20,
             "game": "Titanfall 2",
+            "acceptableAnswers": ["Titanfall 2", "Titanfall"],
             "musicSnippet": "./music/Titanfall2.mp3",
             "hint": "Protocol 3, protect the pilot.",
             "difficulty":"Hard"
@@ -511,6 +541,7 @@
         {
             "id": 21,
             "game": "Cyberpunk 2077",
+            "acceptableAnswers": ["Cyberpunk 2077", "Cyberpunk"],
             "musicSnippet": "./music/Cyberpunk.mp3",
             "hint": "hint for game here (:",
             "difficulty":"Hard"
@@ -518,6 +549,7 @@
         {
             "id": 22,
             "game": "Telltale's The Walking Dead",
+            "acceptableAnswers": ["Telltale Walking Dead", "The Walking Dead", "Walking Dead", "Telltale Walking Dead"],
             "musicSnippet": "./music/Telltale.mp3",
             "hint": "Rest in peace Lee Everett",
             "difficulty":"Extreme"
