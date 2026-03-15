@@ -177,7 +177,7 @@
             "difficulty": "Extreme"
         }
     ],
-    "GameGuesserEnv": [
+    "gameGuesserEnv": [
         {
             "id": 1,
             "game": "Super Mario Bros",
@@ -333,7 +333,7 @@
             "difficulty": "Extreme"
         }
     ],
-    "GameGuesserMusic": [
+    "gameGuesserMusic": [
         {
             "id": 1,
             "game": "Super Mario Bros",
