@@ -382,7 +382,7 @@
             "id": 1,
             "game": "Super Mario Bros",
             "acceptableAnswers": ["Mario", "Super Mario", "Super Mario Bros", "Mario Bros"],
-            "musicSnippet": "./music/SuperMario.mp3",
+            "musicSnippet": "../music/SuperMario.mp3",
             "hint": "One of the most famous games of all time.",
             "difficulty":"Easy"
         },
@@ -390,7 +390,7 @@
             "id": 2,
             "game": "Minecraft",
             "acceptableAnswers": ["Minecraft"],
-            "musicSnippet": "./music/Minecraft.mp3",
+            "musicSnippet": "../music/Minecraft.mp3",
             "hint": "Listen to a soothing soundrack while buiding whatever you can think of.",
             "difficulty":"Easy"
         },
@@ -398,7 +398,7 @@
             "id": 3,
             "game": "Grand Theft Auto 5",
             "acceptableAnswers": ["Grand Theft Auto 5", "Grand Theft Auto", "GTA 5", "GTA"],
-            "musicSnippet": "./music/GTAV.mp3",
+            "musicSnippet": "../music/GTAV.mp3",
             "hint": "hint for game here (:",
             "difficulty":"Easy"
         },
@@ -406,7 +406,7 @@
             "id": 4,
             "game": "Halo",
             "acceptableAnswers": ["Halo"],
-            "musicSnippet": "./music/halo.mp3",
+            "musicSnippet": "../music/halo.mp3",
             "hint": "A game taking place in space witha soundrack to match it.",
             "difficulty":"Easy"
         },
@@ -414,7 +414,7 @@
             "id": 5,
             "game": "Donkey Kong",
             "acceptableAnswers": ["Donkey Kong"],
-            "musicSnippet": "./music/DonkeyKong.mp3",
+            "musicSnippet": "../music/DonkeyKong.mp3",
             "hint": "A very simple game with a simple soundrack. An early arcade game.",
             "difficulty":"Easy"
         },
@@ -422,7 +422,7 @@
             "id": 6,
             "game": "Sonic the Hedgehog",
             "acceptableAnswers": ["Sonic", "Sonic the Hedgehog"],
-            "musicSnippet": "./music/Sonic.mp3",
+            "musicSnippet": "../music/Sonic.mp3",
             "hint": "Fast paced music for a fast paced character",
             "difficulty":"Easy"
         },
@@ -430,7 +430,7 @@
             "id": 7,
             "game": "Pac-Man",
             "acceptableAnswers": ["Pac-Man", "Pac Man", "PacMan"],
-            "musicSnippet": "./music/PacMan.mp3",
+            "musicSnippet": "../music/PacMan.mp3",
             "hint": "Yellow dude that eats dots",
             "difficulty":"Easy"
         },
@@ -438,7 +438,7 @@
             "id": 8,
             "game": "God of War",
             "acceptableAnswers": ["God of War"],
-            "musicSnippet": "./music/GodOfWar.mp3",
+            "musicSnippet": "../music/GodOfWar.mp3",
             "hint": "Fitting soundtrack for a God",
             "difficulty":"Medium"
         },
@@ -446,7 +446,7 @@
             "id": 9,
             "game": "Red Dead Redemption 2",
             "acceptableAnswers": ["Red Dead Redemption 2", "Read Dead Redemption"],
-            "musicSnippet": "./music/RedDead.mp3",
+            "musicSnippet": "../music/RedDead.mp3",
             "hint": "Turberculosis ):",
             "difficulty":"Medium"
         },
@@ -454,7 +454,7 @@
             "id": 10,
             "game": "Crash Bandicoot",
             "acceptableAnswers": ["Crash Bandicoot"],
-            "musicSnippet": "./music/CrashBandicoot.mp3",
+            "musicSnippet": "../music/CrashBandicoot.mp3",
             "hint": "Unhinged music for an unhinged animal.",
             "difficulty":"Medium"
         },
@@ -462,7 +462,7 @@
             "id": 11,
             "game": "The Last of Us",
             "acceptableAnswers": ["The Last of Us"],
-            "musicSnippet": "./music/TheLastOfUs.mp3",
+            "musicSnippet": "../music/TheLastOfUs.mp3",
             "hint": "A soothing soundtrack for a not so soothing story in the apocalypse.",
             "difficulty":"Medium"
         },
@@ -470,7 +470,7 @@
             "id": 12,
             "game": "Doom",
             "acceptableAnswers": ["Doom"],
-            "musicSnippet": "./music/Doom.mp3",
+            "musicSnippet": "../music/Doom.mp3",
             "hint": "Imagine this while ripping demons into bits.",
             "difficulty":"Medium"
         },
@@ -478,7 +478,7 @@
             "id": 13,
             "game": "Tomb Raider",
             "acceptableAnswers": ["Tomb Raider"],
-            "musicSnippet": "./music/TombRaider.mp3",
+            "musicSnippet": "../music/TombRaider.mp3",
             "hint": "Epic music for an epic adventure through tombs.",
             "difficulty":"Medium"
         },
@@ -486,7 +486,7 @@
             "id": 14,
             "game": "Astro Bot",
             "acceptableAnswers": ["Astro Bot"],
-            "musicSnippet": "./music/AstroBot.mp3",
+            "musicSnippet": "../music/AstroBot.mp3",
             "hint": "Very upbeat soundrack with silly robots that you adventure with.",
             "difficulty":"Medium"
         },
@@ -494,7 +494,7 @@
             "id": 15,
             "game": "Expidition 33",
             "acceptableAnswers": ["Expidition 33", "Clair Obscure Expidition 33"],
-            "musicSnippet": "./music/Expedition33.mp3",
+            "musicSnippet": "../music/Expedition33.mp3",
             "hint": "Won an award for the soundrack and also won game of the year.",
             "difficulty":"Hard"
         },
@@ -502,7 +502,7 @@
             "id": 16,
             "game": "Dispatch",
             "acceptableAnswers": ["Dispatch"],
-            "musicSnippet": "./music/Dispatch.mp3",
+            "musicSnippet": "../music/Dispatch.mp3",
             "hint": "A rich story about reformed villians with a rich soundrack.",
             "difficulty":"Hard"
         },
@@ -510,7 +510,7 @@
             "id": 17,
             "game": "Hollow Knight",
             "acceptableAnswers": ["Hollow Knight"],
-            "musicSnippet": "./music/HollowKnight.mp3",
+            "musicSnippet": "../music/HollowKnight.mp3",
             "hint": "Developed by 3 poeople this game pushed visual and musical boundries.",
             "difficulty":"Hard"
         },
@@ -518,7 +518,7 @@
             "id": 18,
             "game": "Resident Evil",
             "acceptableAnswers": ["Resident Evil Village", "Resident Evil"],
-            "musicSnippet": "./music/ResidentEvil.mp3",
+            "musicSnippet": "../music/ResidentEvil.mp3",
             "hint": "Infected and unnecessary backflips.",
             "difficulty":"Hard"
         },
@@ -526,7 +526,7 @@
             "id": 19,
             "game": "Stray",
             "acceptableAnswers": ["Stray"],
-            "musicSnippet": "./music/Stray.mp3",
+            "musicSnippet": "../music/Stray.mp3",
             "hint": "A small cat lost in a world of robots.",
             "difficulty":"Hard"
         },
@@ -534,7 +534,7 @@
             "id": 20,
             "game": "Titanfall 2",
             "acceptableAnswers": ["Titanfall 2", "Titanfall"],
-            "musicSnippet": "./music/Titanfall2.mp3",
+            "musicSnippet": "../music/Titanfall2.mp3",
             "hint": "Protocol 3, protect the pilot.",
             "difficulty":"Hard"
         },
@@ -542,7 +542,7 @@
             "id": 21,
             "game": "Cyberpunk 2077",
             "acceptableAnswers": ["Cyberpunk 2077", "Cyberpunk"],
-            "musicSnippet": "./music/Cyberpunk.mp3",
+            "musicSnippet": "../music/Cyberpunk.mp3",
             "hint": "hint for game here (:",
             "difficulty":"Hard"
         },
@@ -550,7 +550,7 @@
             "id": 22,
             "game": "Telltale's The Walking Dead",
             "acceptableAnswers": ["Telltale Walking Dead", "The Walking Dead", "Walking Dead", "Telltale Walking Dead"],
-            "musicSnippet": "./music/Telltale.mp3",
+            "musicSnippet": "../music/Telltale.mp3",
             "hint": "Rest in peace Lee Everett",
             "difficulty":"Extreme"
         }
