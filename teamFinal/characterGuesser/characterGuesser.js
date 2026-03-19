@@ -24,7 +24,7 @@ function fetchCharacterGuessData(){
     const characterHint = characters[randCharacterIndex].characterHint;
     const characterImage = characters[randCharacterIndex].characterImage;
     currentAnswer = characters[randCharacterIndex].name;
-    acceptableAnswers = [];
+    acceptableAnswers = characters[randCharacterIndex].acceptableAnswers || [];
 
     // Place hint
     const hint = document.querySelector(".characterAndHint p");
