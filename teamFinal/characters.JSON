@@ -407,7 +407,7 @@
             "game": "Halo",
             "acceptableAnswers": ["Halo"],
             "musicSnippet": "../music/halo.mp3",
-            "hint": "A game taking place in space witha soundrack to match it.",
+            "hint": "A game taking place in space with a soundrack to match it.",
             "difficulty":"Easy"
         },
         {
@@ -543,7 +543,7 @@
             "game": "Cyberpunk 2077",
             "acceptableAnswers": ["Cyberpunk 2077", "Cyberpunk"],
             "musicSnippet": "../music/Cyberpunk.mp3",
-            "hint": "hint for game here (:",
+            "hint": "With a Techno SoundTrack, enter into Night City where corperations rule",
             "difficulty":"Hard"
         },
         {

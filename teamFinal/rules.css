@@ -68,6 +68,57 @@
   display: block;
 }
 
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 50px;
+    background: linear-gradient(to bottom right, maroon, 45%, gold);
+    padding-bottom: 17px;
+    min-height: calc(100vh - 50px);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.25em;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.5em;
+  margin-top: 15px;
+}
+
+.gameRules img {
+  width: 400px;
+  height: 400px;
+}
+
+.gameRules img:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.characterGuesser , .environmentGuesser , .soundtrackGuesser{
+  max-width: 400px;
+}
+
+.gameRules {
+  display: flex;  
+  width: 100vw;
+  margin-bottom: 100px;
+  justify-content: space-evenly;
+}
+
+
+
 /* Style the active link (or home/logo) */
 .active {
   background-color: #4E282E;
