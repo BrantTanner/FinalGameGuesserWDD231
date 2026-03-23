@@ -125,6 +125,13 @@ const params = new URLSearchParams(window.location.search);
 }
 
 function loadNextQuestion(mode) {
+    //Hide the hint again for the new question
+    document.querySelector('.hint').classList.remove('show-hint');
+    
+    //Make the "View Hint" button visible again
+    const hintBtn = document.getElementById('hintBtn');
+    if (hintBtn) hintBtn.style.display = 'block';
+
     if (mode === "characterGuesser") {
         fetchCharacterGuessData();
     } else if (mode === "envGuesser") {
@@ -132,6 +139,19 @@ function loadNextQuestion(mode) {
     } else {
         fetchMusicGuessData();
     }
+}
+
+//Showing hint on click
+function showHint() {
+    // Selects the element with your existing class
+    const hintElement = document.querySelector('.hint');
+    const btn = document.getElementById('hintBtn');
+
+    // Reveals the hint using the CSS class we created above
+    hintElement.classList.add('show-hint');
+
+    // Optional: Hide the button once the hint is revealed
+    btn.style.display = 'none';
 }
 
 fetchJSONData();

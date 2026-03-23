@@ -1,3 +1,87 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Monoton&family=Nanum+Brush+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0 auto;
+    font-family: 'Sour Gummy';
+}
+
 .characterAndHint  img{
     width: 300px;
+}
+
+.topLinks {
+  overflow: hidden;
+  background-color: #4E282E;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  background-color: #4E282E;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  width: 200px;
+  text-align: right;
+  font-size: xx-large;
+}
+
+.topnav #myLinks a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Style navigation menu links */
+.topLinks > a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #4E282E;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: xx-large;
+  color: white;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+/* Add a white background color on mouse-over */
+.topLinks a:hover {
+  background-color: white;
+  color: black;
+}
+
+#myLinks a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4E282E;
+  color: white;
+}
+
+.hint {
+    display: none;
+}
+
+/* This class will be added by your JS to reveal the hint */
+.show-hint {
+    display: block;
 }

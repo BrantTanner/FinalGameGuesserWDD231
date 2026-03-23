@@ -75,7 +75,7 @@
 }
 
 /* Gradient color located here */
-main{
+main {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -86,38 +86,44 @@ main{
     min-height: calc(100vh - 50px);
 }
 
-main img{
-    border-radius: 10px;
-    margin-top: 15px;
-    box-shadow: 7px 7px #484848;
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  font-size: 3em;
 }
 
-.playButtons button{
-    border: none;
-    font-size: x-large;
-    background-color: #323A4F;
-    color:white;
-    height: 80px;
-    width: 200px;
-    border-radius: 4px;
-    box-shadow: 0 4px #767676;
-    margin-bottom: 5px;
-
+h2 {
+  font-size: 2.25em;
+  margin-bottom: 15px;
 }
 
-.playButtons button:nth-child(1) {
-  margin-right: 10px;
+p {
+  font-size: 1.5em;
+  margin-top: 15px;
 }
 
-.playButtons button:hover {
-    background-color: white;
-    color:black;
+.gameRules img {
+  width: 400px;
+  height: 400px;
 }
 
-.playButtons button:active {
-  background-color: #292628;
-  box-shadow: 0 2px #666;
-  transform: translateY(4px);
+.gameRules img:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.characterGuesser , .environmentGuesser , .soundtrackGuesser{
+  max-width: 400px;
+  margin: 0;
+}
+
+.gameRules {
+  display: flex;  
+  max-width: 100vw;
+  margin-bottom: 100px;
+  justify-content: space-evenly;
+  gap: 3em;
 }
 
 

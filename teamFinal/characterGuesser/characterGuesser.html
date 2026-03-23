@@ -10,32 +10,36 @@
 </head>
 <body>
     <header>
-        <div class="header-links">
-            <a href="#homepage">Home Page</a>
-            <a href="#gamepage">Play Game</a>
-            <a href="#Credits">Credits</a>
-        </div>
-        <div class="drop-drown">
-            <button> Insert drop down lines</button>
-            <div class="drop-down-content">
-                <a href="#homepage">Home Page</a>
-                <a href="#gamepage">Play Game</a>
-                <a href="#Credits">Credits</a>
+        <div class="topnav">
+            <div class="topLinks">
+                <a href="../homepage/homePage.html" class="active">Home</a>
+                <a href="../rules.html">Rules</a>
+                <a href="#about">Credits</a>
             </div>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="#news">Play</a>
+                <a href="#contact">Rules</a>
+                <a href="#about">Credits</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
 
-        
     </header>
 
     <section class="characterAndHint">
         <img src="#characterImg">
+        <button type="button" id="hintBtn" onclick="showHint()">View Hint</button>
         <p class="hint">insert hint here</p>
     </section>
 
     <section class="playerInput">
         <form>
             <label for="playerGuess">Character Name Here:</label>
-            <input tyep="text" id="playerGuess" name="playerGuess">
+            <input type="text" id="playerGuess" name="playerGuess">
         
         </form>
 
