@@ -1,14 +1,26 @@
 let characters = [];
+let gameEnv = [];
+let gameMusic = [];
 let currentAnswer = "";
 let acceptableAnswers = [];
+    //creating pool for already used files
+let characterPool = [];
+let envPool = [];
+let musicPool = [];
+
 
 async function fetchJSONData() {
     try {
         const response = await fetch('../characters.JSON');
         const jsonData = await response.json();
         characters = jsonData.characterGuesser;
-        gameScene = jsonData.gameGuesserEnv;
+        gameEnv = jsonData.gameGuesserEnv;
         gameMusic = jsonData.gameGuesserMusic;
+
+        //Creating pools for data
+        characterPool = [...characters];
+        envPool = [...gameEnv];
+        musicPool = [...gameMusic];
 
         startGame();
     } catch (error) {
@@ -17,112 +29,109 @@ async function fetchJSONData() {
 }
 
 function fetchCharacterGuessData(){
-    // Random index for characters
-    const randCharacterIndex = Math.floor(Math.random() * characters.length);
+    if (characterPool.length === 0) {
+            alert("You've guessed all characters! Refresh the page to play again.");
+            return;
+        }
 
-    // Game data
-    const characterHint = characters[randCharacterIndex].characterHint;
-    const characterImage = characters[randCharacterIndex].characterImage;
-    currentAnswer = characters[randCharacterIndex].name;
-    acceptableAnswers = characters[randCharacterIndex].acceptableAnswers || [];
+        const randIndex = Math.floor(Math.random() * characterPool.length);
+        const chosen = characterPool[randIndex];
+        
+        // Remove the chosen character from the pool
+        characterPool.splice(randIndex, 1);
 
-    // Place hint
-    const hint = document.querySelector(".characterAndHint p");
-    hint.textContent = "Hint: " + characterHint
+        currentAnswer = chosen.name;
+        acceptableAnswers = chosen.acceptableAnswers || [];
 
-    // Place image
-    const img = document.querySelector(".characterAndHint img");
-    img.src = characterImage;
+        document.querySelector(".characterAndHint p").textContent = "Hint: " + chosen.characterHint;
+        document.querySelector(".characterAndHint img").src = chosen.characterImage;
 }
 
 function fetchEnvGuessData(){
-    // Random index for environments
-    const randEnvIndex = Math.floor(Math.random() * gameScene.length);
-    
-    // Game data
-    currentAnswer = gameScene[randEnvIndex].game;
-    acceptableAnswers = gameScene[randEnvIndex].acceptableAnswers || [];
-    const envImage = gameScene[randEnvIndex].environmentImage;
-    const envHint = gameScene[randEnvIndex].gameHint;
+    if (envPool.length === 0) {
+            alert("You've guessed all environments! Refresh the page to play again.");
+            return;
+        }
 
-    // Place hint
-    const hint = document.querySelector('.characterAndHint p');
-    hint.textContent = "Hint: " + envHint
+        const randIndex = Math.floor(Math.random() * envPool.length);
+        const chosen = envPool[randIndex];
+        
+        envPool.splice(randIndex, 1);
 
-    // Place environment image
-    const img = document.querySelector(".characterAndHint img");
-    img.src = envImage;
-}
+        currentAnswer = chosen.game;
+        acceptableAnswers = chosen.acceptableAnswers || [];
+
+        document.querySelector('.characterAndHint p').textContent = "Hint: " + chosen.gameHint;
+        document.querySelector(".characterAndHint img").src = chosen.environmentImage;
+    }
 function fetchMusicGuessData(){
-    // Random index for Music
-    const randMusicIndex = Math.floor(Math.random() * gameMusic.length);
-
-    // Game data
-    currentAnswer = gameMusic[randMusicIndex].game;
-    acceptableAnswers = gameMusic[randMusicIndex].acceptableAnswers || [];
-    const musicSrc = gameMusic[randMusicIndex].musicSnippet;
-    const musicHint = gameMusic[randMusicIndex].hint;
-
-    // Place hint
-    const hint = document.querySelector('.characterAndHint p');
-    hint.textContent = "Hint: " + musicHint
-
-    // Media element (first load has img, subsequent calls may already have audio)
-    const mediaEl = document.querySelector(".characterAndHint img, .characterAndHint audio");
-    
-    // New audio attributes
-    const audio = document.createElement('audio');
-    audio.src = musicSrc;
-    audio.controls = true;
-    audio.preload = "metadata";
-    audio.textContent = "Your browser does not support audio."
-    
-    // Replace image with the audio player
-    if (mediaEl) {
-        mediaEl.replaceWith(audio)
+if (musicPool.length === 0) {
+        alert("You've guessed all songs! Refresh the page to play again.");
+        return;
     }
 
+    const randIndex = Math.floor(Math.random() * musicPool.length);
+    const chosen = musicPool[randIndex];
+    
+    musicPool.splice(randIndex, 1);
+
+    currentAnswer = chosen.game;
+    acceptableAnswers = chosen.acceptableAnswers || [];
+
+    document.querySelector('.characterAndHint p').textContent = "Hint: " + chosen.hint;
+
+    const mediaContainer = document.querySelector(".characterAndHint");
+    const oldMedia = mediaContainer.querySelector("img, audio");
+
+    const audio = document.createElement('audio');
+    audio.src = chosen.musicSnippet;
+    audio.controls = true;
+   
+    
+    if (oldMedia) {
+        oldMedia.replaceWith(audio);
+    }
 }
 
 function startGame(){
-    // Get mode from URL
-    const params = new URLSearchParams(window.location.search);
-    const mode = params.get('mode')
+const params = new URLSearchParams(window.location.search);
+    const mode = params.get('mode');
 
-    // Fetch and display data depending on gamemode
-    if (mode == "characterGuesser"){
-        fetchCharacterGuessData();
-    }
-    else if (mode == "envGuesser"){
-        fetchEnvGuessData();
-    }
-    else{
-        fetchMusicGuessData();
-    }
-    
-    // Handle form input and guess
+    // Initial Load
+    loadNextQuestion(mode);
+
     const form = document.querySelector('form');
+    const input = document.getElementById('playerGuess');
+
     form.addEventListener('submit', function(event) {
         event.preventDefault();
 
-        const input = document.getElementById('playerGuess');
-        const userGuess = input.value;
-        const normalizedGuess = userGuess.trim().toLowerCase();
+        const userGuess = input.value.trim().toLowerCase();
 
-        if(normalizedGuess == currentAnswer.toLowerCase() || acceptableAnswers.some(answer => answer.toLowerCase() == normalizedGuess)){
+        if (userGuess === currentAnswer.toLowerCase() || 
+            acceptableAnswers.some(answer => answer.toLowerCase() === userGuess)) {
             alert("You guessed right!");
-        }
-        else{
-            alert("Wrong! Try again, The answer was " + currentAnswer);
+        } else {
+            alert("Wrong! The answer was " + currentAnswer);
         }
 
-        location.reload();
-        
-    })
+        // Clear the input and load the next item WITHOUT reloading the page
+        input.value = "";
+        loadNextQuestion(mode);
+    });
 
 
     
 }
 
+function loadNextQuestion(mode) {
+    if (mode === "characterGuesser") {
+        fetchCharacterGuessData();
+    } else if (mode === "envGuesser") {
+        fetchEnvGuessData();
+    } else {
+        fetchMusicGuessData();
+    }
+}
 
 fetchJSONData();

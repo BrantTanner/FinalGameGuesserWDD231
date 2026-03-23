@@ -276,7 +276,7 @@
             "id": 10,
             "game": "Crash Bandicoot",
             "acceptableAnswers": ["Crash Bandicoot"],
-            "environmentImage": "https://i.sstatic.net/7wk7C.jpg",
+            "environmentImage": "https://steamuserimages-a.akamaihd.net/ugc/942826282202669212/F34A9417682958C7CE53D728F231ACDBD8219F9B/",
             "gameHint": "A difficult platformer game with a very off the walls main character.",
             "difficulty": "Medium"
         },
@@ -397,9 +397,9 @@
         {
             "id": 3,
             "game": "Grand Theft Auto 5",
-            "acceptableAnswers": ["Grand Theft Auto 5", "Grand Theft Auto", "GTA 5", "GTA"],
+            "acceptableAnswers": ["Grand Theft Auto 5", "Grand Theft Auto", "GTA 5", "GTA", "Grand Theft Auto V", "GTA V"],
             "musicSnippet": "../music/GTAV.mp3",
-            "hint": "hint for game here (:",
+            "hint": "Welcome to Los Santos.",
             "difficulty":"Easy"
         },
         {
@@ -445,7 +445,7 @@
         {
             "id": 9,
             "game": "Red Dead Redemption 2",
-            "acceptableAnswers": ["Red Dead Redemption 2", "Read Dead Redemption"],
+            "acceptableAnswers": ["Red Dead Redemption 2", "Red Dead Redemption"],
             "musicSnippet": "../music/RedDead.mp3",
             "hint": "Turberculosis ):",
             "difficulty":"Medium"
