@@ -1,0 +1,122 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Monoton&family=Nanum+Brush+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0 auto;
+    font-family: 'Sour Gummy';
+}
+
+.characterAndHint  img{
+    width: 300px;
+}
+
+.topLinks {
+  overflow: hidden;
+  background-color: #4E282E;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+  background-color: #4E282E;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  width: 200px;
+  text-align: right;
+  font-size: xx-large;
+}
+
+.topnav #myLinks a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Style navigation menu links */
+.topLinks > a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #4E282E;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: xx-large;
+  color: white;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+/* Add a white background color on mouse-over */
+.topLinks a:hover {
+  background-color: white;
+  color: black;
+}
+
+#myLinks a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 50px;
+    background: linear-gradient(to bottom right, maroon, 45%, gold);
+    padding-bottom: 17px;
+    min-height: calc(100vh - 50px);
+}
+
+
+
+/* rolling credits animation */
+
+
+
+
+
+
+.socialTags{
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+footer{
+    background-color: #4E282E;
+    display: flex;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    align-items: center;
+    font-size: large;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer a{
+    text-decoration: none;
+    color: white
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+}

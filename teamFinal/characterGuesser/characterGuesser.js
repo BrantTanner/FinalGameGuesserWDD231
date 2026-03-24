@@ -64,6 +64,7 @@ function fetchEnvGuessData(){
         document.querySelector('.characterAndHint p').textContent = "Hint: " + chosen.gameHint;
         document.querySelector(".characterAndHint img").src = chosen.environmentImage;
     }
+    
 function fetchMusicGuessData(){
 if (musicPool.length === 0) {
         alert("You've guessed all songs! Refresh the page to play again.");
