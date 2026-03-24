@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Monoton&family=Nanum+Brush+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    margin: 0 auto;
+    margin: 0;
     font-family: 'Sour Gummy';
 }
 
@@ -77,18 +77,81 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    gap: 50px;
+    gap: 20px;
     background: linear-gradient(to bottom right, maroon, 45%, gold);
     padding-bottom: 17px;
     min-height: calc(100vh - 50px);
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  font-size: 3em; 
+}
 
+.sectionTitle {
+  font-weight: bold;
+  font-size: 1.5em;
+}
 
+p {
+  font-size: 1.2em;
+}
 /* rolling credits animation */
+.creditsWrapper {
+    height: 500px; 
+    overflow: hidden;
+    position: relative;
+    /* background: #000; */
+    
+    /* The Fade Effect */
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        black 15%,
+        black 85%,
+        transparent 100%
+    );
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        black 15%,
+        black 85%,
+        transparent 100%
+    );
+}
+
+/* 2. The Scrolling Text */
+.scrollingContent {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-family: sans-serif;
+
+    animation: movieCredits 60s linear infinite;
+}
+/* Better animation using transform */
+@keyframes movieCredits {
+    0% {
+        transform: translateY(0);
+    }
+    90% {
+      transform: translateY(-125%);
+    }
+    100% {
+        transform: translateY(-125%);
+    }
+}
 
 
-
+.thanksMessage {
+  font-weight: bold;
+  font-size: 2.5em;
+}
 
 
 
