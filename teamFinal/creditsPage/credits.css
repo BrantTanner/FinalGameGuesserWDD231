@@ -6,18 +6,15 @@
     font-family: 'Sour Gummy';
 }
 
-.characterAndHint  img{
-    width: 300px;
-}
-
 .topLinks {
   overflow: hidden;
   background-color: #4E282E;
   position: relative;
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
   height: 50px;
 }
+
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
@@ -166,6 +163,7 @@ footer{
     display: flex;
     color: white;
     padding-top: 10px;
+    justify-content: space-evenly;
     padding-bottom: 5px;
     align-items: center;
     font-size: large;
