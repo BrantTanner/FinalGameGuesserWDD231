@@ -2,21 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Monoton&family=Nanum+Brush+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Sour Gummy';
 }
 
-.characterAndHint  img{
-    width: 300px;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin:0;
 }
 
 .topLinks {
-  overflow: hidden;
-  background-color: #4E282E;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  height: 50px;
+    overflow: hidden;
+    background-color: #4E282E;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -38,10 +44,10 @@
 
 /* Style navigation menu links */
 .topLinks > a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 30px;
   
 }
 
@@ -78,6 +84,39 @@
   color: white;
 }
 
+/*Body Styles*/
+main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to bottom right, maroon, 45%, gold);
+}
+
+.characterAndHint img {
+    width: 600px;
+    margin-top: 15px;
+}
+
+.characterAndHint button {
+  height: 2rem;
+  width: 5rem;
+
+}
+
+.playerInput{
+  padding-top: 25px;
+}
+
+.playerInput label{
+  font-size: 30px;
+}
+.playerInput input{
+  width: 250px;
+  height: 25px;
+}
+
 .hint {
     display: none;
 }
@@ -85,4 +124,41 @@
 /* This class will be added by your JS to reveal the hint */
 .show-hint {
     display: block;
+}
+
+/*Footer styles*/
+footer{
+    background-color: #4E282E;
+    display: flex;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    align-items: center;
+    font-size: large;
+    width: 100%;
+    flex-shrink: 1;
+    justify-content: space-around;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.socialMedia{
+  display: flex;
+  align-items: center;
+}
+
+.socialMedia img{
+  width: 50px;
+}
+
+.socialMedia p{
+  font-size: 20px;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50px;
 }

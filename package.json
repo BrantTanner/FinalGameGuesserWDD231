@@ -1,0 +1,14 @@
+{
+  "name": "final-game-guesser",
+  "version": "1.0.0",
+  "description": "game guesser website for final project in front end development",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite build && vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
