@@ -142,8 +142,17 @@ function loadNextQuestion(mode) {
     }
 }
 
+window.myFunction = function () {
+    const x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+};
+
 //Showing hint on click
-function showHint() {
+window.showHint = function () {
     // Selects the element with your existing class
     const hintElement = document.querySelector('.hint');
     const btn = document.getElementById('hintBtn');
@@ -153,6 +162,6 @@ function showHint() {
 
     // Optional: Hide the button once the hint is revealed
     btn.style.display = 'none';
-}
+};
 
 fetchJSONData();

@@ -6,6 +6,7 @@
     margin: 0 auto;
     font-family: 'Sour Gummy';
 }
+
 /* Style the navigation menu */
 .topLinks {
   overflow: hidden;
@@ -45,7 +46,7 @@
 /* Style the hamburger menu */
 .topnav a.icon {
   background: #4E282E;
-  display: block;
+  display: none;
   position: absolute;
   right: 0;
   top: 0;
@@ -155,4 +156,23 @@ footer a{
     align-items: center;
     justify-content: space-evenly;
     width: 500px;
+}
+
+
+@media (max-width: 800px) {
+  .topLinks{
+    justify-content: space-between;
+  }
+  
+  .topLinks > a {
+    display: none;
+
+  }
+  
+  .gameRules {
+    flex-direction: column;
+  }
+  .topnav a.icon {
+    display: block;
+  }
 }
