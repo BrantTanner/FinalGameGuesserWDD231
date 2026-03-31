@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: row;
     height: 50px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -47,7 +47,8 @@ body {
     color: white;
     padding: 5px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 17px;
+    align-self: center;
   
 }
 
