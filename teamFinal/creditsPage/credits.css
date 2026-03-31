@@ -110,16 +110,9 @@ p {
         black 85%,
         transparent 100%
     );
-    -webkit-mask-image: linear-gradient(
-        to bottom,
-        transparent 0%,
-        black 15%,
-        black 85%,
-        transparent 100%
-    );
 }
 
-/* 2. The Scrolling Text */
+/* The Scrolling Text */
 .scrollingContent {
     position: absolute;
     top: 100%;
@@ -131,7 +124,7 @@ p {
 
     animation: movieCredits 60s linear infinite;
 }
-/* Better animation using transform */
+/* Animation using transform */
 @keyframes movieCredits {
     0% {
         transform: translateY(0);
