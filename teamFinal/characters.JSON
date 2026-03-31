@@ -283,7 +283,7 @@
         {
             "id": 11,
             "game": "The Last of Us",
-            "acceptableAnswers": ["The Last of Us"],
+            "acceptableAnswers": ["The Last of Us" , "Last of Us"],
             "environmentImage": "https://vignette2.wikia.nocookie.net/thelastofus/images/e/e0/The_Last_of_Us_Environment.png/revision/latest?cb=20130628081607",
             "gameHint": "A story driven zombie game about a man who protects a small, immune girl.",
             "difficulty": "Medium"
@@ -315,7 +315,7 @@
         {
             "id": 15,
             "game": "Expidition 33",
-            "acceptableAnswers": ["Expidition 33", "Clair Obscure Expidition 33"],
+            "acceptableAnswers": ["Expidition 33", "Clair Obscure Expidition 33", "E33", "E 33"],
             "environmentImage": "https://wallpapers.com/images/hd/clair-obscur-expedition-33-scene-ix8cpaqvrfzkakih.jpg",
             "gameHint": "Winning game of the year in 2025, this game combines a great story with stunning visuals.",
             "difficulty": "Hard"
@@ -461,7 +461,7 @@
         {
             "id": 11,
             "game": "The Last of Us",
-            "acceptableAnswers": ["The Last of Us"],
+            "acceptableAnswers": ["The Last of Us", "Last of Us"],
             "musicSnippet": "../music/TheLastOfUs.mp3",
             "hint": "A soothing soundtrack for a not so soothing story in the apocalypse.",
             "difficulty":"Medium"
@@ -493,7 +493,7 @@
         {
             "id": 15,
             "game": "Expidition 33",
-            "acceptableAnswers": ["Expidition 33", "Clair Obscure Expidition 33"],
+            "acceptableAnswers": ["Expidition 33", "Clair Obscure Expidition 33", "E33", "E 33"],
             "musicSnippet": "../music/Expedition33.mp3",
             "hint": "Won an award for the soundrack and also won game of the year.",
             "difficulty":"Hard"

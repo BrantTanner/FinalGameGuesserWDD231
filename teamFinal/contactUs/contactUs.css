@@ -1,0 +1,24 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Monoton&family=Nanum+Brush+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0 auto;
+    font-family: 'Sour Gummy';
+}
+img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    transition: transform 1s ease-in-out;
+}
+img:hover {
+    animation: endlessSpin 1s linear infinite;
+}
+@keyframes endlessSpin {
+    from {transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
+p {
+    margin: 15px;
+}

@@ -96,6 +96,7 @@ main{
 
 .characterAndHint img {
     width: 600px;
+    height: 500px;
     margin-top: 15px;
 }
 
@@ -107,6 +108,7 @@ main{
 
 .playerInput{
   padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .playerInput label{
@@ -147,10 +149,15 @@ footer a{
 .socialMedia{
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 500px;
 }
 
 .socialMedia img{
   width: 50px;
+}
+.contactUs:hover {
+  transform: scale(1.5);
 }
 
 .socialMedia p{
