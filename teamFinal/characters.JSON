@@ -219,7 +219,7 @@
         {
             "id": 3,
             "game": "Grand Theft Auto 5",
-            "acceptableAnswers": ["Grand Theft Auto 5", "Grand Theft Auto", "GTA 5", "GTA"],
+            "acceptableAnswers": ["Grand Theft Auto 5", "Grand Theft Auto", "GTA 5", "GTA", "GTA V"],
             "environmentImage": "https://images.ctfassets.net/wn7ipiv9ue5v/NwgElAZU8ZdLmW6v7812Y/3d8a8eb721c109b12bbc2422ba8b4f68/3-4_GTA--Gen_9_Vista_Reshoot_CF__3___1_.jpg",
             "gameHint": "A game about doing crimes in a crazy city, also relates to stealing cars.",
             "difficulty": "Easy"
