@@ -104,32 +104,69 @@ const params = new URLSearchParams(window.location.search);
     const form = document.querySelector('form');
     const input = document.getElementById('playerGuess');
 
+    // adding in the modal instead of alert
+    const modal = document.getElementById('gameModal');
+    const modalMsg = document.getElementById('modalMessage');
+    const closeBtn = document.getElementById('closeModal');
+
     form.addEventListener('submit', function(event) {
         event.preventDefault();
 
         const userGuess = input.value.trim().toLowerCase();
+        let message = "";
 
         if (userGuess === currentAnswer.toLowerCase() || 
             acceptableAnswers.some(answer => answer.toLowerCase() === userGuess)) {
-            alert("You guessed right!");
+            message = "You guessed it right!!!";
         } else {
-            alert("Wrong! The answer was " + currentAnswer);
+            message = "Wrong, The answer was " + currentAnswer;
         }
 
-        // Clear the input and load the next item WITHOUT reloading the page
+        modalMsg.textContent = message;
+        modal.style.display = "block";
+    });
+
+    // click nect to exit modal
+    closeBtn.onclick = function() {
+        modal.style.display = "none";
         input.value = "";
         loadNextQuestion(mode);
+    };
+
+    // click outside model popup to exit modal
+window.onclick = function(event) {
+    if (modal.style.display === "block") {
+        if (!modal.contains(event.target)) {
+            modal.style.display = "none";
+            input.value = "";
+            loadNextQuestion(mode);
+        }
+    }
+};
+
+    // enter to exit modal 
+    window.addEventListener('keydown', function(event) {
+
+        // can't hold down enter (trust me this was needed)
+        if (event.repeat) return;
+        if (event.key === "Enter" && modal.style.display === "block") {
+
+            event.preventDefault(); 
+
+            modal.style.display = "none";
+            input.value = "";
+            loadNextQuestion(mode);
+        }
     });
 
 
-    
 }
 
 function loadNextQuestion(mode) {
     //Hide the hint again for the new question
     document.querySelector('.hint').classList.remove('show-hint');
     
-    //Make the "View Hint" button visible again
+    //Make the View Hint button visible again
     const hintBtn = document.getElementById('hintBtn');
     if (hintBtn) hintBtn.style.display = 'block';
 

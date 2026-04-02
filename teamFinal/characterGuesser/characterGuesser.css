@@ -129,6 +129,47 @@ main{
     display: block;
 }
 
+
+/* modal content */
+.modal {
+    display: none; /* Hidden by default */
+    position: absolute; 
+    z-index: 1000; 
+    left: 50%;
+    top: 50%;
+    width: 10%; 
+    height: 10%; 
+    transform: translate(225% , -150%);
+}
+
+/* Modal Content Box */
+.modalContent {
+    background-color: #4E282E; /* Matching your header color */
+    color: white;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 2px solid gold;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+#closeModal {
+    margin-top: 15px;
+    padding: 5px 15px;
+    font-family: 'Sour Gummy';
+    cursor: pointer;
+    background-color: gold;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
 /*Footer styles*/
 footer{
     background-color: #4E282E;
