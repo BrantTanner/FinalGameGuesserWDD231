@@ -30,7 +30,7 @@ async function fetchJSONData() {
 
 function fetchCharacterGuessData(){
     if (characterPool.length === 0) {
-            alert("You've guessed all characters! Refresh the page to play again.");
+            alert("You've guessed all characters! Go back to home to switch game modes!!!");
             return;
         }
 
@@ -49,7 +49,7 @@ function fetchCharacterGuessData(){
 
 function fetchEnvGuessData(){
     if (envPool.length === 0) {
-            alert("You've guessed all environments! Refresh the page to play again.");
+            alert("You've guessed all environments! Go back to home to switch game modes!!!");
             return;
         }
 
@@ -67,7 +67,7 @@ function fetchEnvGuessData(){
     
 function fetchMusicGuessData(){
 if (musicPool.length === 0) {
-        alert("You've guessed all songs! Refresh the page to play again.");
+        alert("You've guessed all songs! Go back to home to switch game modes!!!");
         return;
     }
 

@@ -22,7 +22,7 @@
             "id": 3,
             "name": "Trevor",
             "game": "Grand Theft Auto 5",
-            "acceptableAnswers": ["Trevor"],
+            "acceptableAnswers": ["Trevor", "Trevor Philips"],
             "characterImage": "https://i.pinimg.com/736x/2a/55/fb/2a55fb4b3739f3d57f1772ff5b5a5e15.jpg",
             "characterHint": "He is completely insane. From a game about doing crimes.",
             "difficulty": "Easy"
@@ -166,7 +166,7 @@
             "id": 19,
             "name": "B-12",
             "game": "Stray",
-            "acceptableAnswers": ["B-12"],
+            "acceptableAnswers": ["B-12", "B12"],
             "characterImage": "https://www.moyens.net/wp-content/uploads/2022/07/Ou-trouver-tous-les-Stray-Memories-pour-B-12.jpg",
             "characterHint": "Companion and translator for a cat",
             "difficulty": "Hard"
