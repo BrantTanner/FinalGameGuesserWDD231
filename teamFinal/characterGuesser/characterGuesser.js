@@ -126,7 +126,7 @@ const params = new URLSearchParams(window.location.search);
         modal.style.display = "block";
     });
 
-    // click nect to exit modal
+    // click next to exit modal
     closeBtn.onclick = function() {
         modal.style.display = "none";
         input.value = "";

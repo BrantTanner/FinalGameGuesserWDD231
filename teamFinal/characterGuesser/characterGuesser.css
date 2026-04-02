@@ -95,6 +95,14 @@ main{
     background: linear-gradient(to bottom right, maroon, 45%, gold);
 }
 
+/*High scores styling*/
+.highScores{
+    position: absolute;
+    z-index: 1000;
+    left: 5%;
+    top: 40%;
+}
+
 .characterAndHint img {
     width: 600px;
     height: 500px;
