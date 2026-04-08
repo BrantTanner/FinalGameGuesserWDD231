@@ -26,6 +26,7 @@
   width: 200px;
   text-align: right;
   font-size: xx-large;
+  z-index: 2000;
 }
 
 .topnav #myLinks a:hover{
@@ -45,7 +46,7 @@
 /* Style the hamburger menu */
 .topnav a.icon {
   background: #4E282E;
-  display: block;
+  display: none;
   position: absolute;
   right: 0;
   top: 0;
@@ -53,6 +54,7 @@
   color: white;
   padding-right: 5px;
   padding-top: 5px;
+  z-index: 2001;
 }
 
 /* Add a white background color on mouse-over */
@@ -173,4 +175,18 @@ footer a{
     align-items: center;
     justify-content: space-evenly;
     width: 500px;
+}
+
+@media (max-width: 800px) {
+  .topLinks {
+    justify-content: space-between;
+  }
+
+  .topLinks > a {
+    display: none;
+  }
+
+  .topnav a.icon {
+    display: block;
+  }
 }

@@ -17,6 +17,10 @@
   height: 50px;
 }
 
+.topLinks img {
+  margin: 0;
+}
+
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
@@ -27,6 +31,7 @@
   width: 200px;
   text-align: right;
   font-size: xx-large;
+  z-index: 2000;
 }
 
 .topnav #myLinks a:hover{
@@ -54,6 +59,7 @@
   color: white;
   padding-right: 5px;
   padding-top: 5px;
+  z-index: 2001;
 }
 
 /* Add a white background color on mouse-over */
