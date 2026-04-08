@@ -8,6 +8,43 @@ let characterPool = [];
 let envPool = [];
 let musicPool = [];
 
+function getScoreKeys(mode) {
+    if (mode === "characterGuesser") {
+        return { current: "charScore", best: "charAllTimeScore" };
+    }
+
+    if (mode === "envGuesser") {
+        return { current: "envScore", best: "envAllTimeScore" };
+    }
+
+    return { current: "musicScore", best: "musicAllTimeScore" };
+}
+
+function setHighScore(mode, score) {
+    const scoreKeys = getScoreKeys(mode);
+    const bestScore = Number(localStorage.getItem(scoreKeys.best) || 0);
+
+    localStorage.setItem(scoreKeys.current, String(score));
+
+    if (score > bestScore) {
+        localStorage.setItem(scoreKeys.best, String(score));
+    }
+}
+
+function displayScore(mode, score) {
+    const highScoreEl = document.querySelector(".highScores h1");
+    const allTimeScoreEl = document.querySelector(".highScores h2");
+
+    if (!highScoreEl || !allTimeScoreEl) {
+        return;
+    }
+
+    const scoreKeys = getScoreKeys(mode);
+    const bestScore = Number(localStorage.getItem(scoreKeys.best) || 0);
+
+    highScoreEl.textContent = `High Score: ${score}`;
+    allTimeScoreEl.textContent = `All Time Score: ${bestScore}`;
+}
 
 async function fetchJSONData() {
     try {
@@ -96,10 +133,12 @@ if (musicPool.length === 0) {
 
 function startGame(){
 const params = new URLSearchParams(window.location.search);
-    const mode = params.get('mode');
+    const mode = params.get('mode') || "characterGuesser";
+    let currentScore = 0;
 
     // Initial Load
     loadNextQuestion(mode);
+    displayScore(mode, currentScore)
 
     const form = document.querySelector('form');
     const input = document.getElementById('playerGuess');
@@ -118,8 +157,14 @@ const params = new URLSearchParams(window.location.search);
         if (userGuess === currentAnswer.toLowerCase() || 
             acceptableAnswers.some(answer => answer.toLowerCase() === userGuess)) {
             message = "You guessed it right!!!";
+            currentScore += 1;
+            setHighScore(mode, currentScore);
+            displayScore(mode, currentScore);
         } else {
             message = "Wrong, The answer was " + currentAnswer;
+            currentScore = 0;
+            setHighScore(mode, currentScore);
+            displayScore(mode, currentScore);
         }
 
         modalMsg.textContent = message;
@@ -174,8 +219,10 @@ function loadNextQuestion(mode) {
         fetchCharacterGuessData();
     } else if (mode === "envGuesser") {
         fetchEnvGuessData();
-    } else {
+    } else if (mode === "musicGuesser") {
         fetchMusicGuessData();
+    } else {
+        fetchCharacterGuessData();
     }
 }
 
