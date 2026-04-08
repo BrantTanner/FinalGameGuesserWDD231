@@ -166,7 +166,7 @@
             "id": 19,
             "name": "B-12",
             "game": "Stray",
-            "acceptableAnswers": ["B-12", "B12"],
+            "acceptableAnswers": ["B-12", "B12", "B/12"],
             "characterImage": "https://www.moyens.net/wp-content/uploads/2022/07/Ou-trouver-tous-les-Stray-Memories-pour-B-12.jpg",
             "characterHint": "Companion and translator for a cat",
             "difficulty": "Hard"
