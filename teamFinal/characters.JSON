@@ -166,7 +166,7 @@
             "id": 19,
             "name": "B-12",
             "game": "Stray",
-            "acceptableAnswers": ["B-12", "B12"],
+            "acceptableAnswers": ["B-12", "B12", "B/12"],
             "characterImage": "https://www.moyens.net/wp-content/uploads/2022/07/Ou-trouver-tous-les-Stray-Memories-pour-B-12.jpg",
             "characterHint": "Companion and translator for a cat",
             "difficulty": "Hard"
@@ -203,7 +203,7 @@
         {
             "id": 1,
             "game": "Super Mario Bros",
-            "acceptableAnswers": ["Super Mario Bros", "Mario", "Super Mario", "Mario Bros"],
+            "acceptableAnswers": ["Super Mario Bros", "Mario", "Super Mario", "Mario Bros", "Super Mario Brothers", "Mario Brothers", "Super Mario World"],
             "environmentImage": "https://tcrf.net/images/b/bc/SMBDX-0x20_%28Test_Level%29.png",
             "gameHint": "This game is about a plumber who crushes turtles and saves a princess.",
             "difficulty": "Easy"
@@ -381,7 +381,7 @@
         {
             "id": 1,
             "game": "Super Mario Bros",
-            "acceptableAnswers": ["Mario", "Super Mario", "Super Mario Bros", "Mario Bros"],
+            "acceptableAnswers": ["Mario", "Super Mario", "Super Mario Bros", "Mario Bros", "Super Mario Brothers", "Mario Brothers", "Super Mario World"],
             "musicSnippet": "../music/SuperMario.mp3",
             "hint": "One of the most famous games of all time.",
             "difficulty":"Easy"
