@@ -203,7 +203,7 @@
         {
             "id": 1,
             "game": "Super Mario Bros",
-            "acceptableAnswers": ["Super Mario Bros", "Mario", "Super Mario", "Mario Bros"],
+            "acceptableAnswers": ["Super Mario Bros", "Mario", "Super Mario", "Mario Bros", "super mario brothers"],
             "environmentImage": "https://tcrf.net/images/b/bc/SMBDX-0x20_%28Test_Level%29.png",
             "gameHint": "This game is about a plumber who crushes turtles and saves a princess.",
             "difficulty": "Easy"
